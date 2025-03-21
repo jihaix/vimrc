@@ -149,7 +149,7 @@ let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ 'active': {
   \   'left': [ [ 'mode', 'paste' ],
-  \             [ 'readonly', 'filename', 'modified' ] ],
+  \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],
   \   'right': [ [ 'lineinfo' ],
   \              [ 'percent' ],
   \              [ 'gitbranch', 'fileformat', 'fileencoding', 'filetype' ] ]
